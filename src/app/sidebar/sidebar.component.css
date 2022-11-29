@@ -1,0 +1,33 @@
+:host{
+    padding-left: 10rem;
+    padding-right: 10rem;
+    display: block;
+}
+.title{
+    font-weight: 600;
+    color: white;
+}
+.favorite-list{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+.favorite-list li{
+    padding: 1rem;
+
+}
+.mini-image{
+    width: 5rem;
+    height: 7rem;
+    align-items: baseline;
+    color: white;
+}
+.divider{
+    border-top: solid 1px rgb(255, 255, 255);
+}
+
+.title-inside{
+    font-weight: 800;
+    color: white;
+}
