@@ -81,7 +81,7 @@
   position: absolute;
   z-index: 2;
   left: -40px;
-  transition: .7s ease-in-out all;
+  transition: .2s ease-in-out all;
 }
 
 .boton.uno svg {
