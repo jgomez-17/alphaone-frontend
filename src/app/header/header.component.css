@@ -1,7 +1,7 @@
 .header{
   width: 100%;
-  background-color: rgb(0, 0, 0);
-  border-bottom: solid 1px rgb(255, 255, 255);
+  background-color: rgb(255, 255, 255);
+  border-bottom: solid 1px rgb(0, 0, 0);
   padding-top: 0%;
 
 }
@@ -18,25 +18,27 @@
 }
 
 .menu li h1{
-  color: rgb(255, 255, 255);
-  font-size: 19px;
-  margin-top: 0%;
-  margin-bottom: 0%;
+  color: rgb(0, 0, 0);
+  font-size: 17px;
+  margin-top: 1%;
+  margin-bottom: 1%;
   text-decoration-line: line-through;
+  margin-left: 0%;;
+  margin-right: 0%;
 
 }
 
 .logo{
-  height: 25px;
-  padding-left: 10px;
+  height: 10px;
+  padding-left: 20px;
   padding-top:5px;
   padding-right: 20px;
 }
 
 .menu li{
-  padding-top: 5px;
-  margin-bottom: 5px;
-  color: rgb(0, 0, 0);
+  padding-top: 1px;
+  margin-bottom: 1px;
+  color: rgb(255, 255, 255);
 }
 
 /*botones*/
@@ -45,9 +47,9 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 15%;
-  height: 42px;
-  background: rgb(0, 0, 0);
+  width: 20%;
+  height: 35px;
+  background: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
   font-size: 15px;
   border: none;
@@ -72,7 +74,7 @@
   position: absolute;
   left: 1%;
   opacity: .01;
-  color: rgb(255, 255, 255);
+  color: rgb(176, 56, 56);
 }
 
 .boton.uno .icono{
@@ -85,32 +87,34 @@
 }
 
 .boton.uno svg {
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   width: 22px;
   height: 22px;
 }
 
 .boton.uno:hover {
-  background: rgb(0, 0, 0);
-
+  background: rgb(255, 255, 255);
 }
 
 .boton.uno:hover span{
-  color: rgb(255, 255, 255);
-  left: 40%;
+  color: rgb(0, 0, 0);
+  left: 25%;
+  right: 25%;
   opacity: 1;
   align-content: center;
   align-items: center;
   justify-content: center;
 }
 
+
 .boton.uno:hover svg{
   opacity: .01;
-  color: rgb(0, 0, 0);
+  text-align: right;
 }
 
 .boton.uno:hover .icono{
   left: calc(100% - 50px);
-  opacity:.01;
-
+  opacity: 1;
 }
+
+

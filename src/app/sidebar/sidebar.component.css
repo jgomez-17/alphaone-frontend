@@ -5,7 +5,7 @@
 }
 .title{
     font-weight: 600;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 .favorite-list{
     list-style: none;
@@ -20,14 +20,14 @@
 .mini-image{
     width: 5rem;
     height: 7rem;
-    align-items: baseline;
-    color: white;
+    align-items: normal;
+    color: rgb(0, 0, 0);
 }
 .divider{
-    border-top: solid 1px rgb(255, 255, 255);
+    border-top: solid 1px rgb(0, 0, 0);
 }
 
 .title-inside{
     font-weight: 800;
-    color: white;
+    color: rgb(0, 0, 0);
 }
